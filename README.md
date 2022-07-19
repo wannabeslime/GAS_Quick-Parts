@@ -24,7 +24,7 @@ Quick Parts feature in GAS/Google Document.
 2. スクリプト用のドキュメントにて、スクリプトエディタを開き、21行目の `Template()` 関数をコピー&ペースト  
 3. 任意の関数名と、 `QuickParts()` の引数に手順1で作成した `parts_name` を指定  
 ![](/img/foothold.png)
-4. `onOpen()` 関数内で、任意の箇所に `.addItem('表示名', 'parts_name')` を追加  
+4. `onOpen()` 関数内で、任意の箇所に `.addItem('表示名', '関数名')` を追加  
 ![](/img/add_menu.png)
 5. 保存した後、スクリプト用のドキュメントを更新し、手順4で指定した表示名の項目が追加されていれば完了  
 
