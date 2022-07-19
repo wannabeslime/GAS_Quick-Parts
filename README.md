@@ -2,6 +2,12 @@
 Quick Parts feature in GAS/Google Document.
 
 # 使い方
+- リストの文頭アイコン
+- プルダウン
+- 脚注
+
+については非対応。
+
 ## 導入
 1. GoogleDocsにて2つドキュメントを作成。
     - 1つはパーツを格納
